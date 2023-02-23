@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrap{
+    
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: auto auto auto auto;
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    grid-gap: 10px;
+}
+
+.mainpage{
+    background-color: orange;
+    grid-row: 1/5;
+background-image: url(/res/mainpage.jpg);
+background-size: cover;
+}
+.sidepage1{
+    background-image: url(/res/2812.png);
+    background-size: cover;
+   
+}
+.sidepage2{
+    background-image: url(/res/614df5a82fb46b0019bdfb41.png);
+background-size: cover;
+}
+.sidepage3{
+    background-image: url(/res/download.png);
+background-size: cover;
+}
+.sidepage4{
+    background-image: url(/res/giraf.png);
+background-size: cover;
+}
+.head{
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 16vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    background: rgba(1, 1, 1, 0.6);
+}
+.head2{
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 16vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    background: rgba(1, 1, 1, 0.6);
+}
+.head3{
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 16vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    background: rgba(1, 1, 1, 0.6);
+}
+.head4{
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 16vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    background: rgba(1, 1, 1, 0.6);
+}
+.button{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    top: 80vh;
+    height: 60px;
+    width: 400px ;
+    background-color: brown;
+    display: flex;
+ 
+}
+.search2{
+    margin-left:25px;
+    font-size: 40PX;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5PX;
+}
+.search{
+    /* border: 2px solid rgb(38, 0, 255); */
+    border-radius: 20px;
+    /* position: relative; */
+    height: 60px;
+    width: 200px ;
+    background-color: rgb(223, 198, 3);
+ background-image: url(/res/search_FILL0_wght400_GRAD0_opsz48.png);
+ /* background-size: 100px; */
+ background-repeat: no-repeat;
+ background-position: center;
+}
